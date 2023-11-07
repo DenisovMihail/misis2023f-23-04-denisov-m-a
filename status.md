@@ -1,6 +1,4 @@
-OK: file codeforces.id is correct
-ERROR: invalid file name 1873C
-ERROR: invalid file name test
-ERROR: file CMakeLists.txt is absent
-ERROR: file prj.codeforces/CMakeLists.txt is absent
-ERROR: CMake generator failed
+ERROR: codeforces id is wrong
+OK: folder prj.codeforces structure is correct
+OK: CMake generator successed
+ERROR: CMake build (MSVC x64) failed
