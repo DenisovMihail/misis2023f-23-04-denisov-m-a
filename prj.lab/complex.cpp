@@ -33,5 +33,14 @@ std::istream& operator>>(std::istream& istrm, Complex& rhs) {
 }
 
 bool testParse(const std::string& str) {
-    // Реализация функции testParse
+    using namespace std;
+    istringstream istrm(str);
+    Complex z;
+    istrm >> z;
+    if (istrm.good()) {
+        cout << "Read success: " << str << " -> " << z << endl;
+    } else {
+        cout << "Read error : " << str << " -> " << z << endl;
+    }
+    return istrm.good();
 }
